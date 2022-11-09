@@ -4,6 +4,7 @@ import {  ProductCard } from '../components';
 import '../styles/custom-styles.css'
 
 import { products } from '../data/products';
+import { InitialValues } from '../interfaces/interfaces';
 
 
 const product = products[0]
@@ -29,7 +30,7 @@ export const ShoppingPage = () => {
               }}
               >
               {
-                ({reset, isMaxCountReached, increaseBy, count}) => (
+                ({reset, isMaxCountReached, increaseBy, count, }) => (
                   <>
                     <ProductCard.Image className='custom-image' />
                     <ProductCard.Title className=' text-bold' />
