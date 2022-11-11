@@ -23,3 +23,7 @@ span, .error-message {
 .has-error {
     border: 1px solid red;
 }
+
+.label-red{ 
+   text-decoration: underline 3px  red;
+}
